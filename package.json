@@ -10,7 +10,7 @@
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "preversion": "ncu -u",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "yarn run snyk-protect"
   },
   "devDependencies": {
@@ -41,17 +41,17 @@
     "@sentry/tracing": "^5.27.3",
     "bs4-toast": "^1.1.0",
     "chart.js": "^2.9.4",
-    "datatables.net": "^1.10.22",
-    "datatables.net-bs4": "^1.10.22",
+    "datatables.net": "^1.11.3",
+    "datatables.net-bs4": "^1.11.0",
     "datatables.net-fixedheader-bs4": "^3.1.7",
     "datatables.net-responsive-bs4": "^2.2.6",
     "datatables.net-scroller-bs4": "^2.0.3",
     "jquery-typeahead": "^2.11.1",
     "jquery.easing": "^1.4.1",
-    "snyk": "^1.425.2",
     "tempusdominus-bootstrap-4": "^5.1.2",
     "vue": "^2.6.12",
-    "vue-resource": "^1.5.1"
+    "vue-resource": "^1.5.3",
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
